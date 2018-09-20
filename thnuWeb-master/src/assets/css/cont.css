@@ -1,0 +1,167 @@
+/* 公共样式 */
+
+li{
+   list-style: none;
+}
+.Love_content.row > a > img,
+.More_content.row > li > a > img{
+    display:block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.thnu_Content{
+    margin: 20px 0;
+}
+.thnu_Love,.thnu_More,.thnu_Many{
+    padding:10px 10px;
+}
+
+/* 告白start */
+.thnu_Love.title{
+    border-bottom: 1px solid #000;
+    
+}
+
+.Love_content{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: palegreen; */
+}
+.Love_content.row > a{
+    /* border-top: 1px solid #000; */
+    position: relative;
+    padding:0;
+    background-color: magenta;
+}
+.Love_content.row > a > img{
+    width: 100%;
+    height:250px;
+}
+.Love_content.row > a > span{
+    position: absolute;
+    top:80%;
+    left:0;
+    width: 100%;
+    height: 20%;
+    padding-top: 15px;
+    background-color: rgb(51,51,51);
+    opacity: 0.6;
+    color:#fff;
+    text-align: center;
+}
+.Love_love{
+    padding-top: 10px;
+}
+.glyphicon.glyphicon-heart,
+.glyphicon.glyphicon-heart-empty{
+    /* display: inline; */
+    color:red;
+}
+@media(max-width:768px){
+    .Love_content.row > a > img{
+        height:180px;
+    }
+}
+/* 通师趣事 */
+.thnu_More.title:first-child{
+    border-bottom: 1px solid #000;
+}
+.More_content.row{
+    margin: 0 auto;
+}
+
+.More_content.row > li > a > img{
+    width: 100%;
+    height:100px;
+}
+.More_content.row > li > .More_newscontent{
+    display: block;
+    width: 90%;
+    height: 110px;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* background-color: yellow; */
+    padding-top:8px;
+    margin: 0 auto;
+    position: relative;
+}
+.More_newscontent:after {
+    bottom: 0;
+    right: 0;
+    content: "...";
+    /* padding: 0 -40px 0 0; */
+    position: absolute;
+}
+@media(max-width:768px){
+    .More_newstitle{
+        font-size: 20px;
+    } 
+}
+/* 友情链接 */
+.thnu_friends.row{
+    margin: 0;
+    cursor: pointer;
+}
+.transimg{
+    display: block;
+    width: 100%;
+}
+@media(min-width:768px) and (max-width:992px){
+    .thnu_friends a{
+        padding-top: 0px;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){
+    .thnu_friends a{
+        padding-top: 2px;
+    }
+}
+
+@media(min-width:1200px){
+    .thnu_friends a{
+        padding-top: 5px;
+    }
+}
+/* 公告 寻物 */
+.thnu_Many.title:first-child{
+    border-bottom: 1px solid #000;
+}
+.glyphicon.glyphicon-volume-up,
+.glyphicon.glyphicon-volume-down{
+    color:#e92322;
+    font-size: 22px;
+    /* line-height: ; */
+    /* padding-top: 10px; */
+}
+.Many_Notice{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Many_Look.row{
+    margin: 0;
+}
+.Many_Look > .col-lg-12{
+    /* background-color: goldenrod; */
+    padding-top: 2px;
+}
+.Many_Look > .col-lg-12 > li > a{
+    display: block;
+    width: 80%;
+    padding-left:30px;
+    color:rgb(51,51,51);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    /* background-color: yellow; */
+}
+.Many_Look > .col-lg-12 > li > span{
+    display: block;
+    float: left;
+    width: 18%;
+    
+    /* background-color: indianred; */
+}

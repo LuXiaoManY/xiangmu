@@ -1,0 +1,15 @@
+/* 字体图标 */
+@font-face{
+    font-family: 'thnu';
+    src:
+    url(../fonts/MiFie-Web-Font.svg) format('svg'),
+    url(../fonts/MiFie-Web-Font.eot) format('embedded-opentype'),
+    url(../fonts/MiFie-Web-Font.ttf) format('truetype'),
+    url(../fonts/MiFie-Web-Font.woff) format('woff');
+}
+.thnu_icon{
+    font-family: thnu;
+}
+.thnu_icon_logo::before{
+    content:"\e920";
+}
